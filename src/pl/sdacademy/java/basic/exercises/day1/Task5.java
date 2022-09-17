@@ -24,6 +24,6 @@ public class Task5 {
 //
 //        } while ();
 //
-//        return sum;
+        return sum;
     }
 }
