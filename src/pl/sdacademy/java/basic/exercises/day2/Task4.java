@@ -8,12 +8,14 @@ public class Task4 {
 
     }
     private static String replaceDotsAndCommas (String input){
-        if(StringValidator.isvalid(int)){
+        if(StringValidator.isvalid(input)){
 //            return input
 //                    .replace(".", REPLACEMENT)
 //                    .replace(",", REPLACEMENT);
             return input.replaceAll(REGEX, REPLACEMENT);
 
         }
+
+        return input;
     }
 }
